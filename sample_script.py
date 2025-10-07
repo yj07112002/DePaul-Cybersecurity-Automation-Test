@@ -1,5 +1,6 @@
 # Sample script
-
+def hello_world():
+    return "Hello World!"
 def calculate_sum(a, b):
     """
     A simple function to calculate the sum of two numbers.
@@ -25,4 +26,5 @@ def main():
     print("Script finished.")
 
 if __name__ == "__main__":
+
     main()
